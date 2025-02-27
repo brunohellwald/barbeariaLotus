@@ -1,0 +1,58 @@
+.sobre {
+  display: flex;
+  align-items: top;
+  margin: 5% 0;
+}
+
+.sobre h2 {
+  text-transform: uppercase;
+  padding: 2.5rem 9rem 2.5rem 1rem;
+  color: white;
+  font-weight: bold;
+  font-size: 10rem;
+  background-color: red;
+}
+
+.sobre div {
+  background-color: rgb(222, 222, 222);
+  font-weight: bold;
+  height: 30rem;
+}
+
+.paragrafo-missao {
+  width: 80%;
+  text-align: justify;
+  font-size: 0.9rem;
+  margin: 0 auto;
+  line-height: 1.7;
+  margin-top: 15%;
+}
+
+.paragrafo-especial {
+  font-weight: bold;
+  color: white;
+  background-color: red;
+  padding: 0.75rem;
+  text-transform: uppercase;
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 8%;
+}
+
+@media screen and (max-width: 480px) {
+  .sobre {
+    flex-direction: column;
+  }
+
+  .sobre h2 {
+    padding: 2.5rem 9rem 2.5rem 1rem;
+    font-size: 6rem;
+    background-color: red;
+  }
+
+  .sobre div {
+    height: 35rem;
+    width: 86%;
+  }
+}

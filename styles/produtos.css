@@ -1,0 +1,182 @@
+.titulo {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: auto;
+  text-align: center;
+  margin: 0 13%;
+}
+
+.titulo h2 {
+  font-size: 1.8rem;
+}
+
+.titulo h3 {
+  font-size: 1.3rem;
+  margin-left: 20%;
+}
+.servicos {
+  display: flex;
+  align-items: center;
+  margin: 5% 0;
+}
+.servicos ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  gap: 5%;
+  text-align: center;
+}
+
+.servicos ul li {
+  width: 30%;
+  background-color: red;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0.5rem 0;
+}
+
+.servicos ul li:nth-child(1),
+.servicos ul li:nth-child(2),
+.servicos ul li:nth-child(3) {
+  margin-bottom: 2%;
+}
+
+.planos {
+  margin: 5% 0;
+}
+
+.planos h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-bottom: 2%;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.card-1,
+.card-2,
+.card-3 {
+  height: 33rem;
+  width: 30%;
+  border: 3px solid red;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.preco {
+  text-align: center;
+  margin-bottom: 1%;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.preco span {
+  font-size: 2.2rem;
+}
+
+.planos h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.3rem;
+  margin-bottom: 8%;
+  color: red;
+}
+
+.planos h4 {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: "Arsenal SC";
+  text-align: center;
+  font-size: 1.15rem;
+  margin-bottom: 4%;
+  font-weight: bold;
+}
+
+.planos ul {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-bottom: 10%;
+}
+
+.planos ul li {
+  margin-bottom: 1%;
+}
+
+.div__card__imagem {
+  margin-top: 10%;
+  text-align: center;
+}
+
+.card__imagem {
+  width: 30%;
+  margin-bottom: 4%;
+}
+
+.p-mensais {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Arsenal SC";
+  margin-bottom: 4%;
+}
+
+.botao {
+  text-align: center;
+  background-color: red;
+  color: white;
+  padding: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-left: 37%;
+}
+
+@media screen and (max-width: 480px) {
+  .servicos {
+    flex-direction: column;
+  }
+
+  .titulo {
+    margin-bottom: 7%;
+  }
+  .servicos ul {
+    width: 100%;
+  }
+
+  .servicos ul li {
+    width: 45%;
+
+    padding: 0.5rem 0;
+  }
+  .servicos ul li {
+    margin-bottom: 2%;
+  }
+
+  .planos h2 {
+    margin-bottom: 8%;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+
+  .card-1,
+  .card-2,
+  .card-3 {
+    height: 30rem;
+    width: 90%;
+    margin-bottom: 5%;
+  }
+
+  .botao {
+    margin-left: 33%;
+  }
+}
